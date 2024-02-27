@@ -32,6 +32,6 @@ public class AddConstantTest {
     public void testAddEmpty(){
         IntList lst = IntList.of(0);
         IntListExercises.addConstant(lst, 1);
-        assertEquals("0", lst.toString());
+        assertEquals("1", lst.toString());
     }
 }
